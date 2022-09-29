@@ -8,13 +8,13 @@ for i in range(N):
     list_of_numbers.append(-N+2*i)
 print(list_of_numbers)
 while True:
-    a = int(input('Какой элемент по счету мне вывести первым: '))
+    a = int(input(f'Какой элемент по счету мне вывести первым (можно ввести от 1 до {N}): '))
     if 0 < a <= N:
         break
     else:
         print(f'Элемента с порядковым номером {a} нет')
 while True:
-    b = int(input('Какой элемент по счету мне вывести вторым: '))
+    b = int(input(f'Какой элемент по счету мне вывести вторым (можно ввести от 1 до {N}): '))
     if 0 < b <= N:
         break
     else:
